@@ -1,0 +1,22 @@
+.nav {
+
+    @apply z-[9999] -translate-x-full transition-all duration-[400]   ease-in-out;
+    &.active{
+        @apply translate-x-0 shadow-2xl;
+    }
+    .nav__item {
+        @apply relative rounded px-4 py-2 text-xl font-bold uppercase hover:cursor-pointer hover:text-primary-50 z-0 overflow-hidden transition-all duration-200 ease-in-out;
+
+        &::before {
+            @apply inset-0 right-full absolute bg-primary-400 transition-all duration-[400]  z-[-1] ease-in-out;
+            
+            content:" "
+            
+        }
+        &:hover {
+            &::before {
+                @apply right-0 ;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.line{ 
+    @apply shadow-xl;
+
+    &::after{ 
+        <img src:"\img\code-working-outline.svg" ;>
+
+    }
+    
+}

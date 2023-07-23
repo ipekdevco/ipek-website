@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include('./partials/head.html')
+  </head>
+
+  <body data-barba="wrapper">
+    @@include('./partials/header.html')
+    <main data-barba="container" data-barba-namespace="about">
+      <div
+        class="hero min-h-screen"
+        style="background-image: url(/img/about.jpg);
+        background-attachment: fixed;"
+      >
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-lg">
+            <h1 class="mb-5 uppercase text-white">about us</h1>
+            <p class="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <a href="#content-about" class="btn-ghost btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- cards -->
+      <article id="content-about" class="py-32">
+        <div class="container">
+          <div class="grid grid-cols-4 gap-10">
+            <div class="col-span-2">
+              <img
+                src="/img/team.svg
+              "
+                alt=""
+              />
+            </div>
+            <div class="col-span-2 grid place-content-center">
+              <h2 class="uppercase mb-4">about </h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+                similique saepe, cupiditate laboriosam laudantium blanditiis
+                beatae temporibus quisquam dolorum at voluptate fugiat a
+                eligendi. Error itaque iure laborum incidunt accusantium,
+                debitis, ratione sint id neque repellat soluta cumque molestias
+                ullam expedita quasi! Reprehenderit, atque commodi! Temporibus
+                beatae maiores iusto deserunt.
+              </p>
+            </div>
+            <div class="col-span-4 mt-32">
+              <h2
+                class="font-extrabold uppercase "
+              >
+                team members
+              </h2>
+            </div>
+            <div class="col-span-4">
+              <section
+                class="bg-primary-00 grid h-screen grid-cols-4 gap-6 py-10"
+              >
+                <!-- card 1 -->
+                <div class="col-span-1">
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="w-full" src="/img/download.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="w-full" src="/img/download.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="w-full" src="/img/download.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="w-full" src="/img/download.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    @@include('./partials/footer.html')
+  </body>
+</html>
